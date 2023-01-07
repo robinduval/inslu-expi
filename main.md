@@ -4,7 +4,7 @@ int expi = 1   // Cette variable est la valeur qu'on renvoie au moniteur, elle d
 bool inslufation = FALSE // Cette variable considère, si nous sommes dans l'état inslufation
 
 
-WHILE (DEMO = TRUE) {
+WHILE (DEMO == TRUE) {
 
   int defaultDelay = 50;        // On met un delay à 50 ms pour pas faire trop chauffer l'arduino, histoire qu'il se repose entre chaque tour de boucle.
   
